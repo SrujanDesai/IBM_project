@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header class="head">
+        <a href="#" class="logo"><i class="fas fa-heart"></i>&nbsp;Event<span>-O-</span>Sphere&nbsp;<i
+                class="fas fa-heart"></i></a>
+        <nav class="navbar ">
+            <a href="#" class="active">Home</a>
+            <a href="#service">Service</a>
+            <a href="#vendor">Vendors</a>
+            <a href="#venue">Venue</a>
+            <a href="#carddesign">E-invites</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div id="menu-bar"><i class="fas fa-bars"></i></div>
+    </header>
+    <!---------------------------Home--------------------->
+    <section class="home" id="home">
+        <!-- <form action="#"> -->
+            <div class="search-box">
+                <h1>Your Wedding,Your Way</h1>
+                <p>Find the best wedding vendors with thousands of trusted reviews</p>
+                <select type="text" class="search-field" id="types">
+                    <option disabled selected>Select Type</option>
+                    <option value="Service">Service</option>
+                    <option value="Vendor">Featured Vendor</option>
+                    <option value="Venue">Venue</option>
+                    <option value="CardDesign">CardDesign</option>
+                </select>
+                <button class="btn" id="search" onclick="scrollToId()">Search</button>
+            </div>
+        <!-- </form> -->
+    </section>
+
+    <!------------------------services-------------------->
+    <section class="service" id="service">
+        <div class="title">
+            <h1><span>S</span>ervice</h1>
+        </div>
+        <div class="services-row">
+            <div class="services-col">
+                <i class="fas fa-book-open"></i>
+                <h2>invitation</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-camera"></i>
+                <h2>Photography & Video</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-brush"></i>
+                <h2>Beauty & Makeup</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fab fa-pagelines"></i>
+                <h2>Wedding flowers</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-birthday-cake"></i>
+                <h2>wedding cake</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-music"></i>
+                <h2>music band</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-utensils"></i>
+                <h2>Catering</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+            <div class="services-col">
+                <i class="fas fa-ring"></i>
+                <h2>Jewellery</h2>
+                <p>Lorem ipsum dolor sit amet, at mei dolore tritani repudiandae.</p>
+            </div>
+        </div>
+    </section>
+    <!-----------------------------vendor------------------->
+    <section class="vendor" id="vendor">
+        <div class="title">
+            <h1><span>F</span>eatured <span>V</span>endor</h1>
+        </div>
+        <div class="vendor-list">
+            <div class="vendor-row">
+                <div class="rate">4.5&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im1.jpg" alt="img">
+                <h2>Beauty tales by komal rai</h2>
+                <p>Bridal Makeup</p>
+                <h3>Rs.20,000 onwards</h3>
+            </div>
+            <div class="vendor-row">
+                <div class="rate">4.2&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im2.jpg" alt="img">
+                <h2>Flinters Management</h2>
+                <p>Wedding Planner</p>
+                <h3>Rs.2.5-4 Lakh</h3>
+            </div>
+            <div class="vendor-row">
+                <div class="rate">5.0&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im3.jpg" alt="img">
+                <h2>Wedding Mela</h2>
+                <p>Wedding Decorators</p>
+                <h3>Rs.80,000-30,00,000</h3>
+            </div>
+            <div class="vendor-row">
+                <div class="rate">4.1&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im4.jpg" alt="img">
+                <h2>SeventhHeaven Wedding Company</h2>
+                <p>Wedding Decorators-Rental Only</p>
+                <h3>Rs.80,000 Onwards</h3>
+            </div>
+            <div class="vendor-row">
+                <div class="rate">4.3&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im5.jpg" alt="img">
+                <h2>Wedding Mela</h2>
+                <p>Wedding Decorators</p>
+                <h3>Rs.80,000-30,00,000</h3>
+            </div>
+            <div class="vendor-row">
+                <div class="rate">4.0&nbsp;<i class="fa fa-star" aria-hidden="true"></i></div>
+                <img src="img/im6.jpg" alt="img">
+                <h2>Wedding Mela</h2>
+                <p>Wedding Decorators</p>
+                <h3>Rs.1.8 Lakh</h3>
+            </div>
+        </div>
+    </section>
+    <!----------------------------venue Section-------------->
+    <section class="venue" id="venue">
+        <div class="title">
+            <h1><span>V</span>enues</h1>
+        </div>
+        <div class="venue-list">
+            <div class="venue-box">
+                <img src="img/venue-5.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Goa</h2>
+                    <p>Azaya Beach Resort, Goa</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="img/venue-2.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Jaipur</h2>
+                    <p>The Raj Palace</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="img/venue-3.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Udaipur</h2>
+                    <p>Taj Aravalli Resort and Spa</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="img/venue-4.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Thailand</h2>
+                    <p>Prince Palace Hotel</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="img/venue-5.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Mumbai</h2>
+                    <p>Grand Banquet, Chembur</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+            <div class="venue-box">
+                <img src="img/venue-6.jpg" alt="img">
+                <div class="venue-info">
+                    <h2>Daman</h2>
+                    <p>The Deltin,Daman</p>
+                    <button class="btn">More Info</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!------------------E-invitation------------------>
+    <section class="invite" id="carddesign">
+        <div class="title">
+            <h1>Card<span>Design</span></h1>
+            <p>Choose the best card Design.</p>
+        </div>
+        <div class="invitation-row">
+            <div class="invitation-box">
+                <img src="img/card-1.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-2.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-3.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-4.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-5.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-6.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-7.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-8.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-9.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-10.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-11.jpg" alt="">
+            </div>
+            <div class="invitation-box">
+                <img src="img/card-12.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------------------footer section--------------------------->
+    <footer id="contact">
+        <div class="container">
+            <div class="f-container">
+                <h2>WedMeGood - Your Personal Wedding Planner</h2><br>
+                <p>Plan your wedding with Us WedMeGood is an Indian Wedding Planning Website </p>
+                <div>
+                    <button class="btn">Register as a Vendor</button>
+                </div>
+                <div class="social">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-pinterest"></i>
+                </div>
+            </div>
+            <div class="f-container">
+                <h2>OverView</h2>
+                <a href="#"><i class="fas fa-angle-right"></i>Service</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Featured Vendor</a>
+                <a href="#"><i class="fas fa-angle-right"></i>Venue</a>
+                <a href="#"><i class=" fas fa-angle-right "></i>CardDesign</a>
+            </div>
+
+            <div class=" f-container ">
+                <h2>Our Newsletter</h2>
+                <p>Subscribe for latest updates</p>
+                <input type=" text " placeholder=" Enter Your Email ">
+                <button class=" btn ">Subscribe</button>
+            </div>
+        </div>
+    </footer>
+    <div class=" copyright ">
+        <p>Created by FAB-5 with ❤️</p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
